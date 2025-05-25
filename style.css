@@ -14,7 +14,7 @@ body {
 
 
 .container {
-  width: clamp(340px, 70vw, 600px);
+  width: clamp(360px, 70vw, 600px);
   background: url('vintage_paper_with _ivy.png') no-repeat center center;
   background-size: cover;
   padding: clamp(16px, 4vw, 32px);
