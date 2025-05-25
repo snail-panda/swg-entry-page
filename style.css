@@ -40,7 +40,9 @@ body {
   letter-spacing: 0.02em;
   margin: 0.2em 0;
   line-height: 1.1;
-  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  text-shadow:
+    1px 1px 0 rgba(0, 0, 0, 0.2),
+   -1px -1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .special-letter {
