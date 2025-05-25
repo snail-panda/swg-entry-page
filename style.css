@@ -59,7 +59,7 @@ body {
 
 .section-title {
   font-size: clamp(1.1rem, 2vw, 1.4rem);
-  margin-top: clamp(6px, 1vw, 12px);
+  margin-top: clamp(6px, 1vw, 10px);
   margin-bottom: clamp(4px, 1vw, 6px);
   font-weight: bold;
   font-family: 'EB Garamond', serif;
@@ -76,11 +76,11 @@ body {
 
 .cta-button {
   display: block;
-  margin: 12px auto clamp(10px, 3vw, 16px) auto; /* Center it horizontally */
+  margin: 12px auto clamp(18px, 3vw, 12px) auto; /* Center it horizontally */
   background-color: #3a5d2a;
   color: white;
-  font-size: clamp(0.85rem, 2vw, 1rem);
-  padding: clamp(8px, 1.8vw, 12px) clamp(16px, 3vw, 28px);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  padding: clamp(4px, 1.8vw, 18px) clamp(12px, 3vw, 24px);
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
