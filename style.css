@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+  background-color: #eae0c8;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+
+
+    .container {
+      width: 90vw;
+      max-width: 768px;
+      aspect-ratio: 2/3;
+      background: url('vintage_paper_with _ivy.png') no-repeat center center;
+      background-size: cover;
+      padding: 24px;
+      box-sizing: border-box;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #3a4d28;
+    }
+
+    .title-line {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.4rem, 4vw, 2.6rem);
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin: 0.2em 0;
+  line-height: 1.1;
+}
+
+.special-letter {
+  display: inline-block;
+  font-size: 130%;
+  transform: scaleX(1) scaleY(1.1);
+  vertical-align: baseline;
+  line-height: 1;
+}
+
+.intro {
+  font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+  line-height: 1.5;
+  margin-bottom: clamp(16px, 3vw, 40px);
+  font-family: 'EB Garamond', serif;
+}
+
+.section-title {
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  margin-top: clamp(12px, 2vw, 24px);
+  margin-bottom: clamp(8px, 1.5vw, 14px);
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+}
+
+.description,
+.quote,
+.footer {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  line-height: 1.6;
+  margin-bottom: clamp(14px, 2.5vw, 30px);
+  font-family: 'EB Garamond', serif;
+}
+
+.cta-button {
+  display: block;
+  margin: 0 auto clamp(20px, 3vw, 40px) auto; /* Center it horizontally */
+  background-color: #3a5d2a;
+  color: white;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  padding: clamp(8px, 1.8vw, 12px) clamp(16px, 3vw, 28px);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  font-family: 'EB Garamond', serif;
+  max-width: 110px;
+  text-align: center;
+}
+
+
+.cta-button:hover {
+  background-color: #2e4a20;
+}
+
+.version {
+  display: block;
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+  color: #444;
+  margin-top: 4px;
+}
+
+
+    @media screen and (max-width: 800px) {
+  .container {
+    padding: 16px;
+  }
+
+  .title-line {
+    font-size: ;
+  }
+
+  .intro,
+  .description,
+  .quote,
+  .footer {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+}
+
+    @media screen and (max-width: 600px) {
+  .title-line {
+    font-size: ;
+  }
+
+  .intro,
+  .description,
+  .quote,
+  .footer {
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-size: 1rem;
+    margin-top: 16px;
+    margin-bottom: 6px;
+  }
+
+  .cta-button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+    max-width: 160px;
+    margin-bottom: 24px;
+  }
+
+  .container {
+    padding: 12px;
+  }
+}
+
+     
+      }
+    }
