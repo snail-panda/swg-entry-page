@@ -48,16 +48,16 @@ body {
 }
 
 .intro {
-  font-size: clamp(0.95rem, 2.2vw, 1.1rem);
-  line-height: 1.5;
-  margin-bottom: clamp(16px, 3vw, 40px);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  line-height: 1.4;
+  margin-bottom: clamp(8px, 2vw, 16px);
   font-family: 'EB Garamond', serif;
 }
 
 .section-title {
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  margin-top: clamp(12px, 2vw, 24px);
-  margin-bottom: clamp(8px, 1.5vw, 14px);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  margin-top: clamp(12px, 1vw, 18px);
+  margin-bottom: clamp(6px, 1vw, 10px);
   font-weight: bold;
   font-family: 'EB Garamond', serif;
 }
@@ -66,14 +66,14 @@ body {
 .quote,
 .footer {
   font-size: clamp(0.9rem, 2vw, 1rem);
-  line-height: 1.6;
-  margin-bottom: clamp(14px, 2.5vw, 30px);
+  line-height: 1.5;
+  margin-bottom: clamp(8px, 1.5vw, 14px);
   font-family: 'EB Garamond', serif;
 }
 
 .cta-button {
   display: block;
-  margin: 0 auto clamp(20px, 3vw, 40px) auto; /* Center it horizontally */
+  margin: 12px auto clamp(16px, 3vw, 24px) auto; /* Center it horizontally */
   background-color: #3a5d2a;
   color: white;
   font-size: clamp(0.85rem, 2vw, 1rem);
