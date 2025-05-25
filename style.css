@@ -132,37 +132,3 @@ body {
   }
 }
 
-    @media screen and (max-width: 600px) {
-  .title-line {
-    font-size: ;
-  }
-
-  .intro,
-  .description,
-  .quote,
-  .footer {
-    font-size: 0.85rem;
-    margin-bottom: 16px;
-  }
-
-  .section-title {
-    font-size: 1rem;
-    margin-top: 16px;
-    margin-bottom: 6px;
-  }
-
-  .cta-button {
-    font-size: 0.8rem;
-    padding: 8px 16px;
-    max-width: 160px;
-    margin-bottom: 24px;
-  }
-
-  .container {
-    padding: 12px;
-  }
-}
-
-     
-      }
-    }
