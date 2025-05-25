@@ -33,14 +33,14 @@ body {
 }
 
 
-    .title-line {
+.title-line {
   font-family: 'Cinzel', serif;
   font-size: clamp(1.4rem, 4vw, 2.6rem);
   font-weight: bold;
   letter-spacing: 0.02em;
   margin: 0.2em 0;
   line-height: 1.1;
-  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  ttext-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
 }
 
 .special-letter {
