@@ -80,7 +80,7 @@ body {
   background-color: #3a5d2a;
   color: white;
   font-size: clamp(0.85rem, 2vw, 1rem);
-  padding: clamp(4px, 1.8vw, 18px) clamp(12px, 3vw, 20px);
+  padding: clamp(4px, 1.8vw, 10px) clamp(12px, 3vw, 20px);
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
