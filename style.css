@@ -16,7 +16,7 @@ body {
 .container {
   width: clamp(280px, 70vw, 600px);
   aspect-ratio: 3 / 4;
-  background: url('vintage-paper-with-ivy.png') no-repeat center center;
+  background: url('vintage_paper_with _ivy.png') no-repeat center center;
   background-size: cover;
   padding: clamp(16px, 4vw, 32px);
   box-sizing: border-box;
