@@ -59,8 +59,8 @@ body {
 
 .section-title {
   font-size: clamp(1.1rem, 2vw, 1.4rem);
-  margin-top: clamp(10px, 1vw, 16px);
-  margin-bottom: clamp(4px, 1vw, 8px);
+  margin-top: clamp(6px, 1vw, 12px);
+  margin-bottom: clamp(4px, 1vw, 6px);
   font-weight: bold;
   font-family: 'EB Garamond', serif;
 }
@@ -70,13 +70,13 @@ body {
 .footer {
   font-size: clamp(0.9rem, 2vw, 1rem);
   line-height: 1.2;
-  margin-bottom: clamp(6px, 1.5vw, 10px);
+  margin-bottom: clamp(6px, 1.5vw, 18px);
   font-family: 'EB Garamond', serif;
 }
 
 .cta-button {
   display: block;
-  margin: 12px auto clamp(12px, 3vw, 18px) auto; /* Center it horizontally */
+  margin: 12px auto clamp(10px, 3vw, 16px) auto; /* Center it horizontally */
   background-color: #3a5d2a;
   color: white;
   font-size: clamp(0.85rem, 2vw, 1rem);
