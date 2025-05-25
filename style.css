@@ -13,19 +13,24 @@ body {
 }
 
 
-    .container {
-      width: 90vw;
-      max-width: 768px;
-      aspect-ratio: 2/3;
-      background: url('vintage_paper_with _ivy.png') no-repeat center center;
-      background-size: cover;
-      padding: 24px;
-      box-sizing: border-box;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: #3a4d28;
+.container {
+  width: clamp(280px, 70vw, 600px);
+  aspect-ratio: 3 / 4;
+  background: url('Vintage-paper-with-ivy.png') no-repeat center center;
+  background-size: cover;
+  padding: clamp(16px, 4vw, 32px);
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3a4d28;
+  margin: 0 auto;
+  max-height: 90vh;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
     }
 
     .title-line {
