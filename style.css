@@ -17,7 +17,10 @@ body {
   width: clamp(360px, 70vw, 600px);
   background: url('vintage_paper_with _ivy.png') no-repeat center center;
   background-size: cover;
-  padding: clamp(16px, 4vw, 32px);
+  padding-top: 48px;
+  padding-right: 32px;
+  padding-bottom: 48px;
+  padding-left: 32px;
   box-sizing: border-box;
   text-align: center;
   display: flex;
