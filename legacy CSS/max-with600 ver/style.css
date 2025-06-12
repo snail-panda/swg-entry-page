@@ -14,8 +14,8 @@ body {
 
 
 .container {
-  width: clamp(360px, 70vw, 500px);
-  background: url('https://i.postimg.cc/g2bVGSBq/Vintage-paper-with-ivy.png') no-repeat center center;
+  width: clamp(360px, 70vw, 600px);
+  background: url('vintage_paper_with _ivy.png') no-repeat center center;
   background-size: cover;
   padding-top: 60px;
   padding-right: 32px;
@@ -35,7 +35,7 @@ body {
 
 .title-line {
   font-family: 'Cinzel', serif;
-  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-size: clamp(1.4rem, 4vw, 2.6rem);
   font-weight: bold;
   letter-spacing: 0.02em;
   margin: 0.2em 0;
@@ -52,14 +52,14 @@ body {
 }
 
 .intro {
-  font-size: clamp(0.9rem, 2vw, 1rem);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
   line-height: 1.3;
   margin-bottom: clamp(8px, 2vw, 12px);
   font-family: 'EB Garamond', serif;
 }
 
 .section-title {
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
   margin-top: clamp(6px, 1vw, 10px);
   margin-bottom: clamp(2px, 1vw, 4px);
   font-weight: bold;
@@ -69,7 +69,7 @@ body {
 .description,
 .quote,
 .footer {
-  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  font-size: clamp(0.9rem, 2vw, 1rem);
   line-height: 1.2;
   margin-top: clamp(6px, 1.5vw, 10px);
   margin-bottom: clamp(6px, 1.5vw, 18px);
@@ -81,15 +81,15 @@ body {
   margin: 12px auto clamp(18px, 3vw, 12px) auto; /* Center it horizontally */
   background-color: #3a5d2a;
   color: white;
-  font-size: clamp(0.8rem, 2vw, 0.9rem);
-  padding: clamp(4px, 1.8vw, 8px) clamp(12px, 3vw, 18px);
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  padding: clamp(4px, 1.8vw, 8px) clamp(12px, 3vw, 20px);
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
   font-family: 'EB Garamond', serif;
-  max-width: 105px;
+  max-width: 110px;
   text-align: center;
 }
 
